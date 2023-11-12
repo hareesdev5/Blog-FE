@@ -1,0 +1,58 @@
+body{
+  background-image: url('https://media.istockphoto.com/id/1248542684/vector/abstract-blurred-colorful-background.jpg?s=612x612&w=0&k=20&c=6aJX8oyUBsSBZFQUCJDP7KZ1y4vrf-wEH_SJsuq7B5I=');
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: 'dm serif display',sans-serif;
+  
+}
+.nav-css {
+  cursor: pointer;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#login-con {
+
+  text-align: center;
+  margin-top: 10%;
+}
+
+.form-css {
+  min-width: 100px;
+  max-width: 500px;
+  margin-left: 30%;
+  margin-bottom: 10%;
+  margin-right: 30%;
+}
+
+.blog-img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.dashboard-table {
+  align-items: center;
+  border: 1px solid rgb(99, 92, 92, 0.2);
+  text-align: center;
+  cursor: pointer;
+  height:90vh;
+}
+
+.sign-container {
+  /* background: linear-gradient(90deg, white, blue, pink, red, skyblue); */
+  border: 1px solid;
+  position: relative;
+  width: 200%;
+  height: 100%;
+}
+.w-m{
+  max-width: 500px;
+}
+
+@media only screen and (min-width: 994px) {
+  .nav-item {
+    display: flex;
+    gap: 20px;
+  }
+}
